@@ -68,6 +68,6 @@ Additionally, by enabling users to **record and revisit personal bucket lists**,
 
 - **Kim Nayoung**  
 - **Kim Jiyoon**  
-- **Lee Soohyun**
+- **Lee Suhyun**
 
 📍 *Developed as a part of the 2023 Mobile Software Capstone Project at Sookmyung Women's University.*
