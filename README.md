@@ -1,51 +1,73 @@
-# 📆 공휴일 캘린더 어플, HOLY MOLY
-<img width="349" alt="스크린샷 2023-12-22 오후 11 42 02" src="https://github.com/nayoung16/HolyMoly_project/assets/102905115/60c30bff-8b2b-4f36-a087-6685cc7a1db1">
+# 📆 Holiday Calendar App, HOLY MOLY
+<img width="349" alt="screenshot" src="https://github.com/nayoung16/HolyMoly_project/assets/102905115/60c30bff-8b2b-4f36-a087-6685cc7a1db1">
 
-# 프로젝트 개요
-바쁜 일상 속에서도 자신의 소중한 휴일을 알차게 보내고 싶은 학생, 직장인들을 위한 <br/>
-앞으로의 휴일을 미리 알고 계획할 수 있게 해주는 캘린더 앱, Holy Moly <br/><br/>
+---
 
-Holy Moly에서는 다가오는 공휴일 정보를 한눈에 파악하고, 캘린더에서 휴일 계획을 세울 수 있습니다. 또한 휴일에 무엇을 할지 망설여진다면, 여행지, OTT, 책 등의 여가생활을 추천받을 수 있습니다.
-사용자들은 이러한 서비스를 제공받음으로써 휴일 계획을 알차고 간편하게 수립할 수 있습니다.  그에 따라 공휴일에 누릴 수 있는 여가의 활동에 기회가 많아지고 결과적으로 사용자들의 삶의 질이 향상될 것이라고 기대할 수 있습니다.
+## 📌 Project Overview
 
-# 핵심 기술 및 주요 기능
-## 핵심 기술
-- Kotlin
-- Firebase
-- Firstore Database
-- 공공데이터포털 한국천문연구원 특일정보 api
+**Holy Moly** is a calendar app designed for **students and working professionals** who want to make the most of their valuable holidays, even in the midst of their busy daily lives.
 
-## 주요 기능
-💟 구글 로그인, 로그아웃 기능<br/>
+With Holy Moly, users can:
+- View upcoming national holidays at a glance
+- Plan their days off directly within a calendar
+- Receive recommendations for **travel destinations, OTT content, books, and other leisure activities** when unsure of what to do
 
-💟 홈 화면<br/>
-- 올해의 잔여 공휴일 수와 이번 달의 공휴일 정보 제공, 월별 공휴일 수를 파악할 수 있고 원하는 달을 누르면 해당 달의 공휴일 일정 확인 가능 <br/>
+By using these features, users can efficiently plan enjoyable holidays, ultimately improving their **quality of life** through better time and leisure management.
 
-💟 캘린더<br/>
-- 공휴일이 빨간 색상으로 표기되어 있어 공휴일을 한 눈에 파악하고 원하는 날짜에 일정을 추가하고 확인 가능 <br/>
+---
 
-💟 플라이트<br/>
-- 네이버 예매창을 통해 비행기 표 조회 및 해당 조회 내역을 저장 <br/>
+## 💻 Core Technologies & Features
 
-💟 md pick<br/>
-- 개발자가 추천하는 각 달의 여행지, 영화, 책 정보 그리고 취미 활동 추천 태그 <br/>
+### 🔧 Technologies Used
+- **Kotlin**
+- **Firebase**
+- **Firestore Database**
+- **KASI (Korea Astronomy and Space Science Institute) Holiday API** via data.go.kr
 
-💟 버킷리스트<br/>
-- 나의 목표, 메모를 작성, 저장 및 삭제 가능
-- 목표의 진행 상태 관리 가능<br/>
+### 🌟 Main Features
 
-# 시스템 구성도
-<img width="623" alt="스크린샷 2023-12-23 오전 12 13 13" src="https://github.com/nayoung16/HolyMoly_project/assets/102905115/6bf10a41-ce18-47a6-8950-234695b8af7f">
+💟 **Google Login / Logout**  
+Secure login/logout via Google account
 
+💟 **Home Screen**  
+- Shows remaining holidays of the year and this month’s holidays  
+- Tap on a month to view detailed holiday info
 
-# 프로젝트 기대효과
- 해당 앱을 통해 공휴일에 무엇을 할지 고민하는 사람들을 도와줄 수 있을 것으로 보입니다. <br/>
- 또한 가까운 공휴일뿐만 아니라 몇 달 뒤의 공휴일에도 미리 항공권을 예약할 수 있게 함으로써 사용자들에게 다양한 선택지를 제공할 수 있을 것으로 기대됩니다. <br/>
- 이외에도 사용자들이 버킷리스트를 작성할 수 있게 하여 추후에 자신이 무엇을 하고 싶었는지 알림 팝업을 통해 상기할 수 있을 것입니다. <br/>
+💟 **Calendar**  
+- Holidays are marked in red  
+- Add and view events by selecting a date
 
-# Contributers
-김나영, 김지윤, 이수현<br/>
-2023 숙명여대 모바일소프트웨어 결과물
+💟 **Flight Search**  
+- Integrated with Naver to search flights  
+- Save flight search results
 
- 
+💟 **MD Pick**  
+- Monthly curated recommendations from developers:  
+  Travel destinations, movies, books, and hobby tags
 
+💟 **Bucket List**  
+- Write, save, and delete goals or memos  
+- Manage progress of personal goals
+
+---
+
+## 🧩 System Architecture
+<img width="623" alt="system diagram" src="https://github.com/nayoung16/HolyMoly_project/assets/102905115/6bf10a41-ce18-47a6-8950-234695b8af7f">
+
+---
+
+## 🌈 Expected Impact
+
+This app is designed to help people **stop stressing about how to spend their holidays**.  
+With the ability to check holidays months in advance and **book flights early**, users gain flexibility and control over their plans.  
+Additionally, by enabling users to **record and revisit personal bucket lists**, the app encourages self-growth and helps keep long-term goals in mind through reminder pop-ups.
+
+---
+
+## 🧑‍💻 Contributors
+
+- **Kim Nayoung**  
+- **Kim Jiyoon**  
+- **Lee Soohyun**
+
+📍 *Developed as a part of the 2023 Mobile Software Capstone Project at Sookmyung Women's University.*
